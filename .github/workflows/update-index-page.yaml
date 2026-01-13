@@ -1,6 +1,8 @@
 name: Update index page
 on:
-  workflow_call:
+  push:
+    branches:
+      - main
 
 jobs:
   update:

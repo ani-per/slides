@@ -1,10 +1,6 @@
 name: Release slidev
 on:
   push:
-    branches-ignore:
-      - "*"
-    tags:
-      - "*"
 
 concurrency: release-slidev
 
